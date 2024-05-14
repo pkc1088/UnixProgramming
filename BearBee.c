@@ -33,13 +33,7 @@ void *bearfun(void *arg) {
 }
 
 int main() {
-    int a = 10;
-    int b = 5.5;
-    int c = a + b;
-    printf("%d\n", c);
-    printf("%f\n", c);
     
-    /*
     pthread_t producer_thread, consumer_thread;
 
     // 세마포어 초기화
@@ -61,6 +55,6 @@ int main() {
     sem_destroy(&pot);
     sem_destroy(&bear);
     //sem_destroy(&pot);
-    */
+    
     return 0;
 }
